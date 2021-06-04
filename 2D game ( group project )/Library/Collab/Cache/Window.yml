@@ -14,8 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/class/_scripts/LevelManager.cs
+    - Assets/class/_scripts/MenuManager.cs
+    - Assets/class/_scripts/scenehandler.cs
     - 
-    m_Values: 01
+    m_Values: 000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
