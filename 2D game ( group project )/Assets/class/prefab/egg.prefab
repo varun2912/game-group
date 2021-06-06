@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3248948154224015001
+--- !u!1 &311254034093389649
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3248948154224015000}
-  - component: {fileID: 3248948154224014998}
-  - component: {fileID: 3248948154224014999}
+  - component: {fileID: 311254034093389648}
+  - component: {fileID: 311254034093389660}
+  - component: {fileID: 311254034093389661}
+  - component: {fileID: 311254034093389662}
+  - component: {fileID: 311254034093389663}
   m_Layer: 0
   m_Name: egg
   m_TagString: Untagged
@@ -18,13 +20,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &3248948154224015000
+--- !u!224 &311254034093389648
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3248948154224015001}
+  m_GameObject: {fileID: 311254034093389649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.78213745, y: 1.0265554, z: 0.78213745}
@@ -37,21 +39,21 @@ RectTransform:
   m_AnchoredPosition: {x: -2.42, y: 97}
   m_SizeDelta: {x: 93.8, y: 95.28}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &3248948154224014998
+--- !u!222 &311254034093389660
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3248948154224015001}
+  m_GameObject: {fileID: 311254034093389649}
   m_CullTransparentMesh: 1
---- !u!114 &3248948154224014999
+--- !u!114 &311254034093389661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3248948154224015001}
+  m_GameObject: {fileID: 311254034093389649}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
@@ -72,3 +74,74 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!50 &311254034093389662
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311254034093389649}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &311254034093389663
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311254034093389649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -33.411682, y: 27.884071}
+      - {x: -43.937435, y: 11.102496}
+      - {x: -46.28991, y: 1.9015884}
+      - {x: -45.88415, y: -6.552629}
+      - {x: -44.234497, y: -19.20422}
+      - {x: -37.35294, y: -29.570852}
+      - {x: -28.804571, y: -39.775936}
+      - {x: -13.85163, y: -44.687157}
+      - {x: -0.46895427, y: -47.346306}
+      - {x: 15.736569, y: -44.478645}
+      - {x: 34.168365, y: -35.370888}
+      - {x: 44.107536, y: -18.127115}
+      - {x: 44.398277, y: 2.2288036}
+      - {x: 35.627834, y: 23.954273}
+      - {x: 18.80245, y: 41.377327}
+      - {x: 0.43065643, y: 48.146767}
+      - {x: -13.870643, y: 45.024033}
+      - {x: -28.890835, y: 33.798378}
+      - {x: -31.5544, y: 28.271563}
+      - {x: 18.994963, y: -9.374838}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 0.9510565, y: 0.30901712}
